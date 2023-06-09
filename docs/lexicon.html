@@ -7,8 +7,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: black;
-  color: beige;
+  background: #220c00;
+  color: #ffac00;
   font-size: 11pt;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  border-bottom: 5px ridge gray;
+  border-bottom: 5px ridge #281100;
 }
 
 header > nav {
@@ -56,8 +56,8 @@ header > nav .center {
 a.site-title, a.site-title:visited {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 16pt;
-  color: gold;
-  text-shadow: 0 1px 1px goldenrod;
+  color: #bc3fbc;
+  text-shadow: 0 1px 1px #f700ff;
   text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ nav.sidebar {
   flex-grow: 0;
   flex-shrink: 0;
 
-  border-right: 5px ridge gray;
+  border-right: 5px ridge #281100;
   padding: 1em 8px;
 }
 
@@ -95,17 +95,18 @@ article {
 }
 
 a, a:visited {
-  color: lightseagreen;
+  color: #6c6cc4;
+  text-decoration: none;
 }
 
-a:hover {
-  background: #fff3;
+::selection, a:hover {
+  background: #492503;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: gold;
-  text-shadow: 0 1px 1px goldenrod;
+  color: #2472c8;
+  text-shadow: 0 1px 1px #3b8eea;
   text-decoration: none;
   font-weight: normal;
 }
@@ -116,9 +117,9 @@ table {
 
 th, td {
   text-align: left;
-  border: 1px solid #888;
-  border-top: 2px solid #444;
-  border-left: 2px solid #444;
+  border: 1px solid #281100;
+  border-top: 2px solid #281100;
+  border-left: 2px solid #281100;
   padding: 2px 6px;
 }
 
@@ -132,7 +133,7 @@ x-src {
 }
 
 x-out:hover {
-  background: #0a06;
+  background: #ffac002a;
 }
 
 x-out:hover x-src {
@@ -140,14 +141,15 @@ x-out:hover x-src {
   position: absolute;
   z-index: 1;
   pointer-events: none;
-  top: 1.8em;
+  bottom: 1.8em;
   left: 0;
-  box-shadow: 0 0 6px #0008, inset 0 1px #555;
-  border: 1px solid #444;
+  box-shadow: 0 0 6px #220c00, inset 0 1px #966900;
+  border: 1px solid #966900;
   padding: 2px 6px;
-  background: linear-gradient(to bottom, #444, #333);
+  background: linear-gradient(to bottom, #220c00, #220c00);
   font-size: 0.8em;
   text-shadow: 0 -1px #000;
+  color: #d670d6
 }
 
     </style>
