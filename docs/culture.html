@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Culture</title>
+    <style>
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: beige;
+  font-size: 11pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  border-bottom: 5px ridge gray;
+}
+
+header > nav {
+  display: flex;
+  flex-direction: row;
+}
+
+header > nav > div {
+  padding: 12px;
+}
+
+header > nav > :where(.left, .right) {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+header > nav > .right {
+  text-align: right;
+}
+
+header > nav .center {
+  text-align: center;
+}
+
+.divider {
+  display: none;
+}
+
+.mdsite-prev-link + .divider {
+  display: inline;
+}
+
+a.site-title, a.site-title:visited {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16pt;
+  color: gold;
+  text-shadow: 0 1px 1px goldenrod;
+  text-decoration: none;
+}
+
+.page-body {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-grow: 1;
+}
+
+nav.sidebar {
+  flex-basis: 10em;
+  flex-grow: 0;
+  flex-shrink: 0;
+
+  border-right: 5px ridge gray;
+  padding: 1em 8px;
+}
+
+@media (max-width: 600px) {
+  nav.sidebar {
+    display: none;
+  }
+}
+
+nav.sidebar ul {
+  padding: 0 1em;
+  font-size: 11pt;
+}
+
+article {
+  flex-grow: 1;
+
+  padding: 1em;
+}
+
+a, a:visited {
+  color: lightseagreen;
+}
+
+a:hover {
+  background: #fff3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: gold;
+  text-shadow: 0 1px 1px goldenrod;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+table {
+  border-spacing: 0;
+}
+
+th, td {
+  text-align: left;
+  border: 1px solid #888;
+  border-top: 2px solid #444;
+  border-left: 2px solid #444;
+  padding: 2px 6px;
+}
+
+x-out {
+  position: relative;
+  cursor: default;
+}
+
+x-src {
+  display: none;
+}
+
+x-out:hover {
+  background: #0a06;
+}
+
+x-out:hover x-src {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  top: 1.8em;
+  left: 0;
+  box-shadow: 0 0 6px #0008, inset 0 1px #555;
+  border: 1px solid #444;
+  padding: 2px 6px;
+  background: linear-gradient(to bottom, #444, #333);
+  font-size: 0.8em;
+  text-shadow: 0 -1px #000;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <a href="index.html">Up</a>
+        </div>
+        <div class="center">
+          <a class="site-title" href="/">
+            Change this title! (in template.html)
+          </a>
+        </div>
+        <div class="right">
+          <a href="syntax.html" class="mdsite-prev-link">Prev</a> <span class="divider">|</span> <a href="lexicon.html" class="mdsite-next-link">Next</a>
+        </div>
+      </nav>
+    </header>
+    <div class="page-body">
+      <nav class="sidebar">
+        <ul><li><a href="phonology.html">Pronunciation</a></li><li><a href="inflections.html">Inflections</a></li><li><a href="syntax.html">Syntax</a></li><li><a href="culture.html">Culture</a></li><li><a href="lexicon.html">Lexicon</a></li></ul>
+      </nav>
+      <article>
+        <h1 id="culture">Culture</h1>
+        <a href="syntax.html" class="mdsite-prev-link">Prev</a> <span class="divider">|</span> <a href="lexicon.html" class="mdsite-next-link">Next</a>
+      </article>
+    </div>
+  </body>
+</html>

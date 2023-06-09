@@ -1,0 +1,3 @@
+#!/bin/sh
+
+(cd src && au -s) && mdsite
