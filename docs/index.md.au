@@ -1,6 +1,16 @@
-# Zdetl
+# Auditioning Zdetl
 
-*Zdetl is the official, standardized language of the Zhodani Consulate of the Traveller universe. Its structure was first codified in Zhodani year 300, five thousand years before the founding of the Third Imperium, and has remained relatively stable in grammar and construction ever since.*
+> __rain#DESPITE#CAP attack#IMP__!
 
-Read about Zdetl on the [Imperial Encyclopedia Wiki](https://wiki.travellerrpg.com/Zdetl_(language)).
+*(Hover over the above text to see its corresponding grammatical gloss.)*
 
+Hello, I am [GM Satchel](https://dice.camp/@satchel), a lifelong TTRPG aficionado; although when it comes to Traveller, I've yet to make it out of character creation!
+
+> [Zdetl](https://wiki.travellerrpg.com/Zdetl_(language)) is the official, standardized language of the Zhodani Consulate of the Traveller universe. Its structure was first codified in Zhodani year 300, five thousand years before the founding of the Third Imperium, and has remained relatively stable in grammar and construction ever since.
+
+This website is the result of my attempt to expand--without countermanding!--the [lexicon](https://wiki.travellerrpg.com/Zdetl/Lexicon) cribbed from many, many Traveller sources over the years. I am doing this using a tool called [audition](https://github.com/benchristel/audition), designed to facilitate "rapid, interactive iteration on conlang syntaxes, morphologies, and lexicons". What *audition* does that's really grand is parse glosses (eg `attack#IMP`) into your conlang by applying your derivational morphologies (`#IMP` -> `u'de'`) to your lexicon ("attack" -> `kiatl`)!
+
+If you want to help, or if you have questions, don't hesitate to reach out on 🐘 [Mastodon](https://dice.camp/@satchel) or 🎮 [Discord](https://discordapp.com/users/801146591666765894) (probably you should join the 🚀 [Traveller Discord](https://discord.gg/ZTwCMHuNfc)!). 
+
+
+As of now, the action's happening in [inflections](/docs/inflections.html) as I work through Rob Eaglestone's *[Zdetl at a Glance](https://discord.com/channels/327908432101244948/521751157668970516/1106381425235722261)*. There's also Jeff Kazmierski's well-appointed text *Beginning Zdetl*, and his [Zhdantia Language & Cultural Institute](https://www.facebook.com/groups/425408508913687) group dedicated to further Zdetl development.
