@@ -1,5 +1,9 @@
 ---
 inflections:
+  GEN:
+    - ["$", "'s"]
+  PL:
+    - ["$", "tl"]
   BEFORE: 
     - ["$", "chedl"]
   IMP:
